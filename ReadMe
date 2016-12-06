@@ -1,0 +1,36 @@
+Install below  packages before running the code in R, you can install from 
+Tools/Install packages and manually give the names of the packages to install or run below commands at R prompt.
+
+install.packages("vcd")
+install.packages("SDMTools")
+install.packages("ROCR")
+install.packages("e1071")
+install.packages("caret")
+install.packages("MASS")
+install.packages("randomForest")
+installed.packages("foreign")
+installed.packages("nnet")
+installed.packages("ggplot2")
+installed.packages("reshape2")
+install.packages("caret")
+install.packages("rpart")
+install.packages("rpart.plot")
+install.packages("doSNOW")
+install.packages("shiny"")
+
+
+# Instructions 
+TO RUN LOCALLY
+For this project to run R and R studio 0.99.903 and above should be installed.
+This project can be run either on Linux, iOS  or Windows.
+Whenever user runs this project , the dataset gene.train.csv and test.data.csv should be in the current working directory of R.
+User can set the working directory using setwd(...path...)
+Models will run on the Shiny app. To make the app work following libraries should be installed in R.
+install.packages("devtools")
+install.packages("rsconnect")
+install.packages("shinny")
+
+
+
+Once these library are loaded. User can open the ui.R and server.R files and run the app either using runApp() command from command line or run App on the tool bar. After the app is run it opens a new window , On giving different predictors the model will predict whether the chemical is mutagen or not. Results will be displayed on right pane.
+
